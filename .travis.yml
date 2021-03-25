@@ -1,0 +1,8 @@
+# deployment section in the .travis.yml
+deploy:
+  provider: script
+  # specify the deployment script
+  script: bash deploy.sh
+  # specify to deploy with code change a given branch
+  on:
+    branch: develop
