@@ -1,0 +1,4 @@
+back-end/local_mocks/dynamodb_local
+back-end/local_mocks/dynamodb_local/*
+back-end/shared-local-instance.db
+.vscode
